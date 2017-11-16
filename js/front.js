@@ -58,9 +58,21 @@
                 hours.textContent = (mytimer() + myminutes() + sec + afternoon());
             }, 1000);
     
-            function on(){
-                console.log("teat");
+
+             document.getElementById("btn").addEventListener("click", greeting);
+
+         function greeting(){
+
+            function getCookies(){
+
+            var name = document.getElementById("name").value;
+
+            document.cookie = name;
+
+             }
+              
             }
+            
         
     
     
