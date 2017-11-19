@@ -1,0 +1,29 @@
+.container{
+    width: 35% !important;
+    
+}
+input{
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+button{
+    text-align: center !important;
+}
+.row{
+    text-align: center !important;
+    
+}
+body{
+    background-image: url("http://localhost:4000/img/great.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+#hour{
+    color: white;
+}
+btn{
+    color: white !important;
+}
