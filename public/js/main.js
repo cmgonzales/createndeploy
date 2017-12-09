@@ -1,3 +1,5 @@
 
+
+
 var names = document.getElementById("name");
-names.textContent = "Hello " + document.cookie;
+names.textContent = "Welcome " + document.cookie;

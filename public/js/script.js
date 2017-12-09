@@ -1,3 +1,5 @@
+
+
 function mytimer() {
 
     var hour = new Date().getHours();
