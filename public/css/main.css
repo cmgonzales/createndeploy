@@ -7,3 +7,10 @@
     background-color: rgb(51, 51, 51);
     text-align: center;
 }
+
+.shake{
+    letter-spacing: 1px !important;
+}
+.space{
+    padding-left: 7px;
+}
