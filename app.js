@@ -23,8 +23,8 @@ app.get('/projects', (req, res) =>{
 });
 
 //Routing Jobs
-app.get('/jobs', (req, res) =>{
-    res.sendFile(path.join(__dirname+'/public/jobs.html'));
+app.get('/job', (req, res) =>{
+    res.sendFile(path.join(__dirname+'/public/job.html'));
 });
 
 //Routing main page

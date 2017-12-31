@@ -2,7 +2,7 @@ function search(){
   
     let userInput = document.getElementById("userInput").value;
 
-    const jobs = "https://api.usa.gov/jobs/search.json?query=" + userInput + "jobs"
+    const jobs = "https://jobs.search.gov/jobs/search.json?query="+userInput+"+jobs"
 
     $.ajax({
         type: 'GET',
@@ -39,3 +39,4 @@ function search(){
 
 }
 
+document.getElementById("job").addEventListener("click", search);
