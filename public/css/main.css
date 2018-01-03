@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black !important;
+    background-color: rgb(41, 53, 66) !important;
    }
   
 
@@ -14,18 +14,21 @@ h1{
     z-index: 1;
     font-family: 'Seaweed Script', cursive;
     font-size: 100px;
-    color: black;
+    color: rgb(66, 66, 109);
 
 }
 #imagine{
+   display: none;
     margin-top: 250px;
     margin-left: 200px;
 }
 #create{
+    display: none;
     margin-top: 350px;
     margin-left: 400px;
 }
 #deploy{
+    display: none;
     margin-top: 450px;
     margin-left: 500px;
 }
