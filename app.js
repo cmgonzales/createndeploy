@@ -22,10 +22,7 @@ app.get('/projects', (req, res) =>{
     res.sendFile(path.join(__dirname+'/public/projects.html'));
 });
 
-//Routing Jobs
-app.get('/job', (req, res) =>{
-    res.sendFile(path.join(__dirname+'/public/job.html'));
-});
+
 
 //Routing main page
 app.get('/main',function(req,res){
