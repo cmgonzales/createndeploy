@@ -72,5 +72,7 @@ function greeting() {
 
 }
 
-
+$(document).ready(function(){
+    $(body).fade(1000)
+});
 
