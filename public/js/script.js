@@ -74,5 +74,7 @@ function greeting() {
 
 $(document).ready(function(){
     $(body).fade(1000)
+    $(h1).hide()
 });
+
 
