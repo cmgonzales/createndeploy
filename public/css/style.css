@@ -16,7 +16,7 @@ button{
     
 }
 body{
-    background-image: url("http://localhost:4000/img/great.jpg");
+    background-image: url("../img/great.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
