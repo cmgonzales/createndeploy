@@ -1,1 +1,1 @@
-first time portfolio
+fist portfolio
